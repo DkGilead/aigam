@@ -138,7 +138,7 @@ body {
       background-repeat: no-repeat;
       background-size: 100% 80%, 100%;
       background-position: 50% 20%, 50% 70%;
-      padding-bottom: 350px; }
+      padding: 100px 0 250px 0; }
       body section.aigam .individual__title {
         font-family: 'Gotham Pro', sans-serif;
         font-size: 34px;
@@ -159,6 +159,8 @@ body {
             content: url("../img/checkmark.png");
             display: inline-block;
             margin-right: 20px; }
+      body section.aigam .individual img {
+        margin-bottom: 50px; }
   body section.app-port {
     background: url(../img/bg-app-port.png);
     background-repeat: no-repeat;
