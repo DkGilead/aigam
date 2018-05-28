@@ -262,16 +262,21 @@
 		</div>
 		<div class="row">
 			<div class="col">
-				<form id='main-form' method="POST" action="php/sendmail.php" accept-charset='utf-8'>
+				<form id='main_form' method="POST" action="php/sendmail.php" accept-charset='utf-8'>
 					<div class="row">
-						<div class="col-12 col-md-6">
-							<input type="text" name='name' id='contact-name' placeholder='Имя' required="">
+						<div class="message col-12">
+							<p class="email-loading"><img src="img/loading.gif" alt="">&nbsp;&nbsp;&nbsp;Отправляется...</p>
+							<p class="email-success"><i class="icon icon-icon-check-alt2"></i> Ваш запрос успешно отправлен</p>
+							<p class="email-failed"><i class="icon icon-icon-close-alt2"></i> Что-то пошло не так!</p>
 						</div>
 						<div class="col-12 col-md-6">
-							<input type="tel" name='phone' id='contact-phone' placeholder='Телефон' required="">
+							<input type="text" name='name' id='name' id='contact-name' placeholder='Имя' required="">
+						</div>
+						<div class="col-12 col-md-6">
+							<input type="tel" name='phone' id='phone' id='contact-phone' placeholder='Телефон' required="">
 						</div>
 						<div class="col-12 text-center">
-							<button class='btn'>Заказать</button>
+							<button class='btn' id='form-btn'>Заказать</button>
 							<p>отправляя форму, я даю согласие на обработку персональных данных</p>
 						</div>
 					</div>
