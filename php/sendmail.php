@@ -1,10 +1,5 @@
-<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-
- 
 <?php
-
 header('Content-Type: text/html; charset=utf-8');
-
 // Variables
 $name = trim($_POST['name']);
 $phone = trim($_POST['phone']);
@@ -18,7 +13,7 @@ $phone = trim($_POST['phone']);
 
 	// Email will be send
 	$to = "softlafa@ya.ru"; // Change with your email address
-	$sub = "Новый клиент"; // You can define email subject
+	$sub = "=?utf-8?B?". base64_encode("Новый клиент Aigam Company"). "?="; // You can define email subject
 	// HTML Elements for Email Body
 	$body = '<strong>Имя: </strong>' . $name . '<br>' . '<strong>Телефон: </strong>' . $phone;
 //Must end on first column

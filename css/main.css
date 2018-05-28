@@ -301,8 +301,8 @@ body {
     body section.application form {
       margin-top: 80px;
       padding-bottom: 16px; }
-      body section.application form input,
-      body section.application form textarea {
+      body section.application form input {
+        width: 90%;
         font-size: 29px;
         background: #161616;
         color: rgba(255, 255, 255, 0.63);
@@ -311,21 +311,18 @@ body {
         padding: 4px 19px;
         border-radius: 10px;
         margin-bottom: 20px; }
-        body section.application form input::placeholder,
-        body section.application form textarea::placeholder {
+        body section.application form input::placeholder {
           color: rgba(255, 255, 255, 0.3); }
-        body section.application form input:focus,
-        body section.application form textarea:focus {
+        body section.application form input:focus {
           outline: none;
           border-width: 2px;
           border-style: solid;
           border-image: linear-gradient(to right, #de0091 40%, #005cb9);
           border-image-slice: 1; }
-          body section.application form input:focus::placeholder,
-          body section.application form textarea:focus::placeholder {
+          body section.application form input:focus::placeholder {
             color: rgba(255, 255, 255, 0.63); }
       body section.application form button {
-        margin-top: 100px;
+        margin-top: 60px;
         text-transform: uppercase;
         padding: 8px 70px; }
       body section.application form p {

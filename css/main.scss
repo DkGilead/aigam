@@ -272,8 +272,8 @@ body{
 			form{
 				margin-top: 80px;
 				padding-bottom: 16px;
-				input,
-				textarea{
+				input{
+					width: 90%;
 					font-size: 29px;
 					background: #161616;
 					color: rgba(255, 255, 255, 0.63);
@@ -297,7 +297,7 @@ body{
 					}
 				}
 				button{
-					margin-top: 100px;
+					margin-top: 60px;
 					text-transform: uppercase;
 					padding: 8px 70px;
 				}
