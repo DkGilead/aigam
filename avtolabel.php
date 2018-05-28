@@ -4,6 +4,5 @@
 		<h2 class='title-section'>Реклама на автомобилях</h2>
 	</div>
 </div>
-</div>
 </section>
 <?php include 'footer.php';?>

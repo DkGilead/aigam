@@ -13,19 +13,23 @@
     body section.aigam .btns {
       margin-top: 90px; }
     body section.aigam .services {
-      background: linear-gradient(to bottom, #131313, #0c356e, #790648, #131313);
+      background-size: cover;
+      background-position: center;
       padding-top: 100px; }
+      body section.aigam .services .item:nth-child(13) .item__data .item__data__title {
+        word-break: break-all; }
       body section.aigam .services .item .item__data {
         height: 150px;
         padding: 25px 0 0 4px;
         background-position: 150% !important;
         background-size: 70% 80%, 100% 100% !important; }
         body section.aigam .services .item .item__data:hover .item__data__title {
-          font-size: 1em; }
+          font-size: 15px; }
         body section.aigam .services .item .item__data .item__data__title {
-          font-size: 1em;
+          font-size: 15px;
           padding-top: 0;
-          padding-left: 0; }
+          padding-left: 0;
+          font-weight: bold; }
         body section.aigam .services .item .item__data .item__data__desc {
           opacity: 1;
           bottom: 15px; }
@@ -158,5 +162,8 @@
         max-width: 100%; }
   body section.application {
     background-size: 100% 100%; } }
+@media only screen and (min-width: 2230px) {
+  body section.services {
+    background: contain; } }
 
 /*# sourceMappingURL=media.css.map */

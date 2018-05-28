@@ -4,6 +4,5 @@
 		<h2 class='title-section'>Автоматизация ресторанов, кафе</h2>
 	</div>
 </div>
-</div>
 </section>
 <?php include 'footer.php';?>

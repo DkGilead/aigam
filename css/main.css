@@ -33,6 +33,7 @@ body {
   background: #131313; }
   body section.aigam {
     background: url("../img/bg-aigam.png") no-repeat;
+    background-size: 100%;
     padding: 115px 0 0 0;
     border-bottom: 1px solid #06538d; }
     body section.aigam .title h1, body section.aigam .title h3 {
@@ -66,7 +67,7 @@ body {
       padding: 182px 0 55px 0; }
       body section.aigam .services .item .item__data {
         height: 190px;
-        padding: 35px 0 55px 25px;
+        padding: 25px 0 55px 10px;
         margin-bottom: 25px;
         position: relative;
         border-width: 3px;
@@ -74,9 +75,9 @@ body {
         border-image: linear-gradient(to right, #de0091 40%, #005cb9);
         border-image-slice: 1; }
         body section.aigam .services .item .item__data__title {
-          padding: 28px 0 0 20px;
+          padding: 15px 0 0 15px;
           margin-bottom: 34px;
-          font-size: 28px;
+          font-size: 26px;
           transition: all 0.3s ease-in-out; }
         body section.aigam .services .item .item__data__desc {
           display: block;
@@ -91,7 +92,7 @@ body {
         body section.aigam .services .item .item__data:hover .item__data__title {
           padding-top: 0px;
           padding-left: 0;
-          font-size: 25px;
+          font-size: 24px;
           transition: all 0.5s ease-in-out; }
         body section.aigam .services .item .item__data:hover .item__data__desc {
           opacity: 1;
@@ -159,9 +160,18 @@ body {
             display: inline-block;
             margin-right: 20px; }
   body section.app-port {
-    background: url("../img/bg-app-port.png");
+    background: url(../img/bg-app-port.png);
     background-repeat: no-repeat;
-    background-size: contain; }
+    background-size: contain;
+    position: relative; }
+    body section.app-port::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.45); }
     body section.app-port .approach {
       padding-top: 150px; }
       body section.app-port .approach img {

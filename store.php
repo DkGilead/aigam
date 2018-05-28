@@ -4,6 +4,5 @@
 		<h2 class='title-section'>Интернет-магазин</h2>
 	</div>
 </div>
-</div>
 </section>
 <?php include 'footer.php';?>

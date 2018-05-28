@@ -1,18 +1,6 @@
 <?php include 'header.php';?>
-<div class="row">
-	<div class="col text-center title">
-		<h1>Предложим создать веб сайт</h1>
-		<h3>Как комплексное решение для<br>коммерческой деятельности</h3>
-	</div>
-</div>
-<div class="row">
-	<div class="col text-center btns">
-		<a href='#application' class='btn' id='try'>Попробовать</a>
-	</div>
-</div>
-</div>
 <section class="services">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-6 col-lg-4 col-xl-3 item">
 				<div class="item__data">
